@@ -44,7 +44,7 @@ The staged pipeline uses the following commands:
 ```bash
 python -m see_pick.cli cache-intents --dataset DATASET --output INTENT_CACHE --config configs/models.yaml
 python -m see_pick.cli cache-vision --dataset DATASET --output VISION_CACHE --intent-cache INTENT_CACHE --config configs/models.yaml
-python -m see_pick.cli infer --dataset DATASET --output results.json --team "See It, Say It, Pick It" --vision-cache VISION_CACHE --intent-cache INTENT_CACHE --config configs/models.yaml
+python -m see_pick.cli infer --dataset DATASET --output results.json --team "Nightcats" --vision-cache VISION_CACHE --intent-cache INTENT_CACHE --config configs/models.yaml
 python -m see_pick.cli validate --results results.json --dataset DATASET
 ```
 
