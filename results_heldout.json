@@ -1,0 +1,433 @@
+{
+  "team": "See It, Say It, Pick It",
+  "results": [
+    {
+      "instruction_id": "held_01_i1",
+      "target_pixel": [
+        533,
+        1486
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_008"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_01_i2",
+      "target_pixel": [
+        1841,
+        996
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_004"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_01_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_002; obj_003; obj_004; obj_009?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_01_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "Unable to interpret the instruction: cached intent failure"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_01_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_002: red toothed edge central hole gear; obj_003: red toothed edge central hole gear; obj_004: red toothed edge central hole gear; obj_009: red top gear?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_01_i6",
+      "target_pixel": [
+        1912,
+        599
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_009"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_01_i7",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "Unable to interpret the instruction: cached intent failure"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_01_i8",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies inside"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i1",
+      "target_pixel": [
+        1661,
+        1516
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_010"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i2",
+      "target_pixel": [
+        1996,
+        401
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_008"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "Unable to interpret the instruction: cached intent failure"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_005: yellow ceramic floral design plate; obj_007: white ceramic patterned edge plate?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no graspable object matches saucer"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i6",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "Unable to interpret the instruction: cached intent failure"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i7",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_005: yellow ceramic floral design plate; obj_007: white ceramic patterned edge plate?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_02_i8",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "The requested operation is unsafe."
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i1",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_002: green white handle contains liquid cup; obj_004: blue white and shape cube; obj_005: white silver heart pattern empty plate?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_005: white silver heart pattern empty plate; obj_008: gray plate?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_005: white silver heart pattern empty plate; obj_008: gray plate?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies colors for parts and the small white part"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_001: gray rectangular empty tray; obj_002: green white handle contains liquid cup; obj_003: red metallic shape gear; obj_004: blue white and shape cube; obj_005: white silver heart pattern empty plate; obj_006: gray gold sun design sparkly brooch; obj_007: gray plastic hole in center flat piece; obj_009: mug?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i6",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches bottom of the image"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i7",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "A moving destination requires updated scene evidence."
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_03_i8",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_002: green white handle contains liquid cup; obj_004: blue white and shape cube; obj_005: white silver heart pattern empty plate?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i1",
+      "target_pixel": [
+        533,
+        1486
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_007"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches gear"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches cube"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches gears"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches gear"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i6",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies inside"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i7",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches cube"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_04_i8",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "Program contains a non-executable clause."
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i1",
+      "target_pixel": [
+        2050,
+        557
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_006"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i2",
+      "target_pixel": [
+        2050,
+        557
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_006"
+        },
+        {
+          "action": "place",
+          "object": "obj_001"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies on_top_of"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "cannot establish complete selection: potential members have unavailable evidence"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "The requested operation is unsafe."
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i6",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no usable vision evidence for geometry selection"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i7",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_001: gray rectangular empty tray; obj_007: gray object just; obj_008: gray part?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "held_05_i8",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "cannot establish complete selection: potential members have unavailable evidence"
+        }
+      ]
+    }
+  ]
+}

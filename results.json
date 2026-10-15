@@ -1,0 +1,641 @@
+{
+  "team": "See It, Say It, Pick It",
+  "results": [
+    {
+      "instruction_id": "scene_01_i1",
+      "target_pixel": [
+        243,
+        980
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_002"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_01_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches gear"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_01_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_001: green white handle cup; obj_003: yellow sun shaped shape object?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_01_i4",
+      "target_pixel": [
+        243,
+        980
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_002"
+        },
+        {
+          "action": "place",
+          "object": "obj_009"
+        },
+        {
+          "action": "pick",
+          "object": "obj_003"
+        },
+        {
+          "action": "place",
+          "object": "obj_009"
+        },
+        {
+          "action": "pick",
+          "object": "obj_008"
+        },
+        {
+          "action": "place",
+          "object": "obj_009"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_01_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies colors for cube"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_02_i1",
+      "target_pixel": [
+        2182,
+        950
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_006"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_02_i2",
+      "target_pixel": [
+        1671,
+        424
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_002"
+        },
+        {
+          "action": "place",
+          "object": "obj_001"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_02_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_001: gray rectangular empty tray; obj_002: red shaped smooth cube; obj_003: green white interior exterior circular shape cup; obj_004: white patterned edge heart shaped cutout plate; obj_005: orange round unpeeled orange; obj_006: mandarin?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_02_i4",
+      "target_pixel": [
+        2182,
+        950
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_006"
+        },
+        {
+          "action": "place",
+          "object": "obj_004"
+        },
+        {
+          "action": "pick",
+          "object": "obj_002"
+        },
+        {
+          "action": "place",
+          "object": "obj_001"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_02_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "{\"code\": \"pixel_body_mask_opening_proxy_violated\", \"destination_quality\": \"usable\", \"margin\": 0.15, \"opening_proxy_px\": 402.91890395192075, \"ratio\": 1.4185400921502131, \"reason\": \"Pixel caliper ratio with engineering margin; Destination body mask is only an opening proxy.\", \"status\": \"violated\", \"target_quality\": \"usable\", \"target_width_px\": 571.5566191410205}"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_03_i1",
+      "target_pixel": [
+        1819,
+        865
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_004"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_03_i2",
+      "target_pixel": [
+        1332,
+        584
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_001"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_03_i3",
+      "target_pixel": [
+        1868,
+        707
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_002"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_03_i4",
+      "target_pixel": [
+        1332,
+        584
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_001"
+        },
+        {
+          "action": "place",
+          "object": "obj_005"
+        },
+        {
+          "action": "pick",
+          "object": "obj_002"
+        },
+        {
+          "action": "place",
+          "object": "obj_005"
+        },
+        {
+          "action": "pick",
+          "object": "obj_003"
+        },
+        {
+          "action": "place",
+          "object": "obj_005"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_03_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_001: red sparkly gear; obj_002: red sparkly gear; obj_003: red sparkly gear?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_04_i1",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_002: white graspable oval plastic with two holes object; obj_003: white graspable oval plastic with two holes object; obj_004: white graspable rectangular plastic with one hole object?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_04_i2",
+      "target_pixel": [
+        2138,
+        1435
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_006"
+        },
+        {
+          "action": "place",
+          "object": "obj_007"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_04_i3",
+      "target_pixel": [
+        609,
+        702
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_001"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_04_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "{\"code\": \"pixel_body_mask_opening_proxy_unknown\", \"destination_quality\": \"usable\", \"margin\": 0.15, \"opening_proxy_px\": null, \"ratio\": null, \"reason\": \"Overlapping masks cannot establish a fit proxy. Destination body mask is only an opening proxy.\", \"status\": \"unknown\", \"target_quality\": \"usable\", \"target_width_px\": null}"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_04_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "The requested operation is unsafe."
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_05_i1",
+      "target_pixel": [
+        1604,
+        1509
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_007"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_05_i2",
+      "target_pixel": [
+        1604,
+        1509
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_007"
+        },
+        {
+          "action": "place",
+          "object": "obj_002"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_05_i3",
+      "target_pixel": [
+        2090,
+        624
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_005"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_05_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies inside"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_05_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "Program contains a non-executable clause."
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_06_i1",
+      "target_pixel": [
+        1901,
+        1363
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_007"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_06_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: other requires a preceding resolved object of the same head?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_06_i3",
+      "target_pixel": [
+        1337,
+        700
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_001"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_06_i4",
+      "target_pixel": [
+        1699,
+        563
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_002"
+        },
+        {
+          "action": "place",
+          "object": "obj_004"
+        },
+        {
+          "action": "pick",
+          "object": "obj_001"
+        },
+        {
+          "action": "place",
+          "object": "obj_004"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_06_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "The request contains no supported manipulation operation."
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_07_i1",
+      "target_pixel": [
+        584,
+        1111
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_003"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_07_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies colors for gear"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_07_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies colors for gear"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_07_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible head matches mug"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_07_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "No object identity was resolved."
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_08_i1",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_001: gray rectangular flat tray; obj_006: gray rectangular flat tray?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_08_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "selected set contains unusable vision evidence"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_08_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies on_top_of"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_08_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "requested 2 objects but only 1 match"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_08_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "The requested operation is unsafe."
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_09_i1",
+      "target_pixel": [
+        694,
+        1380
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_009"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_09_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_010: gray saucer; obj_011: saucer?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_09_i3",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_008: gray plastic tray; obj_010: gray saucer?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_09_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "no visible object satisfies colors for part"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_09_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "The request both requires and prohibits movement."
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_10_i1",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "base_nonmatch+targeted_detector_miss+measured_contrast; yellow gear; 3; masked_pixels:masked-hsv-lab-v2; gray"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_10_i2",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "ask_user",
+          "question": "Which object do you mean: obj_001: yellow green has leaf design plate; obj_005: white heart design peace symbol pattern plate?"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_10_i3",
+      "target_pixel": [
+        815,
+        939
+      ],
+      "actions": [
+        {
+          "action": "pick",
+          "object": "obj_003"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_10_i4",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "base_nonmatch+targeted_detector_miss+measured_contrast; yellow gear; 3; masked_pixels:masked-hsv-lab-v2; gray"
+        }
+      ]
+    },
+    {
+      "instruction_id": "scene_10_i5",
+      "target_pixel": null,
+      "actions": [
+        {
+          "action": "refuse",
+          "reason": "Program contains a non-executable clause."
+        }
+      ]
+    }
+  ]
+}

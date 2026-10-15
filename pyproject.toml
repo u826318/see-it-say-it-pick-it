@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "see-pick"
+version = "0.1.0"
+description = "Local vision-language grounding pipeline for Hack Apertus Track 2A"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "httpx==0.28.1",
+  "jsonschema==4.25.1",
+  "numpy==2.2.6",
+  "opencv-python-headless==4.12.0.88",
+  "Pillow==11.3.0",
+  "pydantic==2.12.0",
+  "PyYAML==6.0.2",
+]
+
+[project.optional-dependencies]
+vision = [
+  "accelerate==1.10.1",
+  "lm-format-enforcer==0.11.3",
+  "qwen-vl-utils==0.0.14",
+  "torch==2.8.0",
+  "transformers==4.57.1",
+]
+dev = [
+  "pytest==8.4.2",
+  "pytest-cov==6.2.1",
+]
+
+[project.scripts]
+see-pick = "see_pick.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/see_pick", "starter"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"schema/result.schema.json" = "see_pick/result.schema.json"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest_tmp"
+
