@@ -8,7 +8,7 @@ This repository contains the local inference pipeline and the required submissio
 
 - `results.json` - public development-set output
 - `results_heldout.json` - held-out output
-- `report/technical-report.pdf` - two-page technical report
+- `report/technical-report.pdf` - Track 2A technical report
 - `slides/presentation.pdf` - five-slide presentation
 - `colab/Hack_Apertus_2A_Heldout_Colab.ipynb` - reproducible A100 workflow
 - `colab/runtime-source.zip` - exact source archive used for the held-out run
